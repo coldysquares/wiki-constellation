@@ -10,9 +10,8 @@
 <body>
   <div id="app">
     <header class="masthead">
-      <nav class="collection-nav" aria-label="Collection navigation">
-        <a href="../" aria-label="Back to all GUVs">← GUVs</a>
-        <span>GUV / explorer / live index</span>
+      <nav class="collection-nav" aria-label="Project type">
+        <span>explorer / live index</span>
       </nav>
 
       <div class="heading-row">
@@ -86,13 +85,13 @@
           <button id="retryButton" type="button">Try again</button>
         </div>
 
-        <section id="focusMembrane" class="focus-membrane" aria-live="polite" aria-label="Active article membrane">
+        <section id="focusMembrane" class="focus-membrane" aria-live="polite" aria-label="Active article view">
           <div class="focus-heading">
             <div>
               <div id="focusKind" class="panel-kicker">Selected star</div>
               <h2 id="focusTitle">Choose a star</h2>
             </div>
-            <button id="closeFocus" class="focus-close" type="button" aria-label="Exit the active article membrane">×</button>
+            <button id="closeFocus" class="focus-close" type="button" aria-label="Close the active article view">×</button>
           </div>
           <p id="focusNote">Tap a star to bring its source and next path inside the active view.</p>
           <div class="focus-actions">
@@ -103,7 +102,7 @@
         </section>
 
         <p id="graphInstructions" class="graph-hint">
-          Drag the field · tap a star to enter its membrane · Enter article grows the next layer
+          Drag the field · tap a star to inspect it · Enter article grows the next layer
         </p>
       </section>
 
