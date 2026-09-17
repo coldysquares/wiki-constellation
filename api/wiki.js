@@ -58,7 +58,7 @@ export default async function handler(req, res) {
     const upstream = await fetch(`${WIKIPEDIA_ENDPOINT}?${params}`, {
       headers: {
         Accept: "application/json",
-        "User-Agent": "GUVs-Wiki-Constellation/1.0 (https://github.com/coldysquares/guvs)"
+        "User-Agent": "Wiki-Constellation/1.0 (https://github.com/coldysquares/wiki-constellation)"
       },
       signal: controller.signal
     });
